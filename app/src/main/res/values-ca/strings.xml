@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">RoyalBrave</string>
+
+    <string name="ppsinlog_iniciarsesion">Iniciar Sessió</string>
+    <string name="ppsinlog_registrate">"Registra't"</string>
+    <string name="ppsinlog_español">Espanyol</string>
+    <string name="ppsinlog_catalan">Català</string>
+    <string name="ppsinlog_ingles">Anglès</string>
+    <string name="ppsinlog_nosotros">Sobre Nosaltres</string>
+    <string name="ppsinlog_ubi">Ubicació</string>
+
+    <string name="pplog_proximos">Partits</string>
+
+    <string name="isesion_bienvenido">Benvingut!</string>
+    <string name="isesion_olvidado">Heu oblidat la contrasenya? Click</string>
+    <string name="isesion_aqui">Aquí</string>
+    <string name="isesion_nocuenta">"No en tens compte? Registra't"</string>
+    <string name="isesion_entrar">Entra</string>
+
+    <string name="registrar_nombre">Nom</string>
+    <string name="registrar_apellidos">Cognoms</string>
+    <string name="registrar_contrasena">Contrasenya</string>
+    <string name="registrar_email">Correu</string>
+    <string name="registrar_hombre">Home</string>
+    <string name="registrar_mujer">Dona</string>
+    <string name="registrar_boton">Registrar-se</string>
+
+    <string name="estadisticas_beneficio">Guanys/Pèrdues:</string>
+    <string name="estadisticas_ingresos">Ingressos Nets:</string>
+    <string name="estadisticas_tingresos">Total Ingressos:</string>
+    <string name="estadisticas_tretiradas">Total Retirades:</string>
+    <string name="estadisticas_uapuestas">Últimes Apostes:</string>
+
+    <string name="cambiar_contraseña1">Canvia la teva contrasenya per protegir el teu compte</string>
+    <string name="cambiar_contraseña2">La vostra contrasenya ha de tenir, almenys, vuit caràcters i incloure una combinació de números i lletres</string>
+    <string name="cambiar_contraseña_actual">Contrasenya Actual</string>
+    <string name="cambiar_contraseña_nueva">Nova Contrasenya</string>
+    <string name="cambiar_contraseña_repetir">Repetir Contrasenya</string>
+    <string name="cambiar_contraseña_boton">Canviar</string>
+
+    <string name="panel_admin_crear">Crear</string>
+    <string name="panel_admin_eliminar">Eliminar</string>
+    <string name="panel_admin_editar">Editar</string>
+
+    <string name="detalles_panel_nombre">Nom:</string>
+    <string name="detalles_panel_apellido">Cognom:</string>
+    <string name="detalles_panel_genero">Genero:</string>
+    <string name="detalles_panel_fecha">Data Naixement:</string>
+    <string name="detalles_panel_email">Correu:</string>
+    <string name="detalles_panel_monedero">Diners:</string>
+    <string name="detalles_panel_admin">Administrador:</string>
+    <string name="detalles_titulo_error">Eliminar a </string>
+    <string name="detalles_contenido_error">Estàs segur que vols eliminar a </string>
+    <string name="detalles_alerta_si">Sí</string>
+    <string name="detalles_alerta_no">No</string>
+
+    <string name="nuevoAdmin_esAdmin">L\'usuari és admin?</string>
+    <string name="nuevoAdmin_boton">Crear</string>
+
+    <string name="actualizar_boton">Actualitzar</string>
+
+    <string name="clasificacion_posicion">Posició</string>
+    <string name="clasificacion_equipo">Equip</string>
+    <string name="clasificacion_puntos">Punts</string>
+    <string name="clasificacion_goleadores">Màxims Golejadors</string>
+
+    <string name="detalles_partido_informacion">INFORMACIÓ DEL PARTIT</string>
+    <string name="detalles_partido_competicion">Competició</string>
+    <string name="detalles_partido_fecha">Començament</string>
+    <string name="detalles_partido_estadio">Estadi</string>
+    <string name="detalles_partido_fecha_tiempo"> a les </string>
+
+    <string name="goleadores_posicion">Posició</string>
+    <string name="goleadores_nombre">Nom</string>
+    <string name="goleadores_foto">Foto</string>
+    <string name="goleadores_equipo">Equip</string>
+    <string name="goleadores_foto_equipo">Foto Equip</string>
+    <string name="goleadores_goles">Gols</string>
+
+    <string name="bottom_boton_apuesta">Fer aposta</string>
+    <string name="bottom_gana">Gunya</string>
+    <string name="bottom_empate">Empat</string>
+    <string name="bottom_cantidad">Cantitat</string>
+
+    <string name="apuesta_resultado">Resultat Exacte</string>
+    <string name="apuesta_goles">Gols +-2.5</string>
+    <string name="apuesta_amarillas">Targetes Grogues +-3.5</string>
+    <string name="apuesta_rojas">Targetes vermelles +-1.5</string>
+    <string name="apuesta_corners">Corners +-8.5</string>
+    <string name="apuesta_tiros">Tirs a porta +-6.5</string>
+    <string name="apuesta_mas">Més</string>
+    <string name="apuesta_menos">Menys</string>
+    <string name="apuesta_local">Local</string>
+    <string name="apuesta_visitante">Visitant</string>
+    <string name="apuesta_empatan">Empaten</string>
+
+    <string name="estadisticas_apuesta_fecha">Data de l\'aposta:</string>
+    <string name="estadisticas_apuesta_estado">Estat:</string>
+    <string name="estadisticas_apuesta_esPagado">Se ha pagat:</string>
+
+    <string name="error_cantidad">Error en la cantitat</string>
+
+    <string name="si">Sí</string>
+</resources>

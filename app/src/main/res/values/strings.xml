@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RoyalBrave</string>
+
+    <string name="ppsinlog_iniciarsesion">Iniciar Sesión</string>
+    <string name="ppsinlog_registrate">Registrate</string>
+    <string name="ppsinlog_español">Español</string>
+    <string name="ppsinlog_catalan">Catalan</string>
+    <string name="ppsinlog_ingles">Ingles</string>
+    <string name="ppsinlog_nosotros">Sobre Nosotros</string>
+    <string name="ppsinlog_ubi">Ubicación</string>
+
+    <string name="pplog_proximos">Partidos</string>
+
+    <string name="isesion_bienvenido">Bienvenido!</string>
+    <string name="isesion_olvidado">Has olvidado tu contraseña? Click</string>
+    <string name="isesion_aqui">Aquí</string>
+    <string name="isesion_nocuenta">No tienes cuenta? Registrate</string>
+    <string name="isesion_entrar">Entrar</string>
+
+
+    <string name="registrar_nombre">Nombre</string>
+    <string name="registrar_apellidos">Apellidos</string>
+    <string name="registrar_contrasena">Contraseña</string>
+    <string name="registrar_email">Correo</string>
+    <string name="registrar_hombre">Hombre</string>
+    <string name="registrar_mujer">Mujer</string>
+    <string name="registrar_boton">REGISTRARSE</string>
+
+    <string name="estadisticas_beneficio">Ganancias/Perdidas:</string>
+    <string name="estadisticas_ingresos">Ingresos Netos:</string>
+    <string name="estadisticas_tingresos">Total Ingresos:</string>
+    <string name="estadisticas_tretiradas">Total Retiradas:</string>
+    <string name="estadisticas_uapuestas">Ultimas Apuestas:</string>
+
+    <string name="cambiar_contraseña1">Cambia tu contraseña para proteger tu cuenta</string>
+    <string name="cambiar_contraseña2">Tu contraseña debe tener, al menos, ocho caracteres e incluir una combinación de numeros y letras</string>
+    <string name="cambiar_contraseña_actual">Contraseña Actual</string>
+    <string name="cambiar_contraseña_nueva">Nueva Contraseña</string>
+    <string name="cambiar_contraseña_repetir">Repetir Contraseña</string>
+    <string name="cambiar_contraseña_boton">Cambiar</string>
+
+    <string name="panel_admin_crear">Crear</string>
+    <string name="panel_admin_eliminar">Eliminar</string>
+    <string name="panel_admin_editar">Editar</string>
+
+    <string name="detalles_panel_nombre">Nombre:</string>
+    <string name="detalles_panel_apellido">Apellido:</string>
+    <string name="detalles_panel_genero">Genero:</string>
+    <string name="detalles_panel_fecha">Fecha Nacimiento:</string>
+    <string name="detalles_panel_email">Correo:</string>
+    <string name="detalles_panel_monedero">Dinero:</string>
+    <string name="detalles_panel_admin">Administrador:</string>
+    <string name="detalles_titulo_error">Eliminar a </string>
+    <string name="detalles_contenido_error">Estas seguro de que quieres eliminar a </string>
+    <string name="detalles_alerta_si">Sí</string>
+    <string name="detalles_alerta_no">No</string>
+
+    <string name="nuevoAdmin_esAdmin">¿El usuario es admin?</string>
+    <string name="nuevoAdmin_boton">Crear</string>
+
+    <string name="actualizar_boton">Actualizar</string>
+
+    <string name="clasificacion_posicion">Posición</string>
+    <string name="clasificacion_equipo">Equipo</string>
+    <string name="clasificacion_puntos">Puntos</string>
+    <string name="clasificacion_goleadores">Máximos Goleadores</string>
+
+    <string name="goleadores_posicion">Posición</string>
+    <string name="goleadores_nombre">Nombre</string>
+    <string name="goleadores_foto">Foto</string>
+    <string name="goleadores_equipo">Equipo</string>
+    <string name="goleadores_foto_equipo">Foto Equipo</string>
+    <string name="goleadores_goles">Goles</string>
+
+    <string name="detalles_partido_informacion">INFORMACIÓN DEL PARTIDO</string>
+    <string name="detalles_partido_competicion">Competición</string>
+    <string name="detalles_partido_fecha">Comienzo</string>
+    <string name="detalles_partido_estadio">Estadio</string>
+    <string name="detalles_partido_fecha_tiempo"> a las </string>
+
+    <string name="bottom_boton_apuesta">Hacer Apuesta</string>
+    <string name="bottom_gana">Gana</string>
+    <string name="bottom_empate">Empate</string>
+    <string name="bottom_cantidad">Cantidad</string>
+
+    <string name="apuesta_resultado">Resultado Exacto</string>
+    <string name="apuesta_goles">Goles +-2.5</string>
+    <string name="apuesta_amarillas">Tarjetas Amarillas +-3.5</string>
+    <string name="apuesta_rojas">Tarjetas Rojas +-1.5</string>
+    <string name="apuesta_corners">Corners +-8.5</string>
+    <string name="apuesta_tiros">Tiros a puerta +-6.5</string>
+    <string name="apuesta_mas">Más</string>
+    <string name="apuesta_menos">Menos</string>
+    <string name="apuesta_local">Local</string>
+    <string name="apuesta_visitante">Visitante</string>
+    <string name="apuesta_empatan">Empatan</string>
+
+    <string name="estadisticas_apuesta_fecha">Fecha de la apuesta:</string>
+    <string name="estadisticas_apuesta_estado">Estado:</string>
+    <string name="estadisticas_apuesta_esPagado">Se ha pagado:</string>
+
+    <string name="error_cantidad">Error en la cantidad</string>
+
+    <string name="si">Sí</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" tools:ignore="MissingTranslation">Hello blank fragment</string>
+
+</resources>

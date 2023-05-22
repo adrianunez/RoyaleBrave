@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/PPSinLogFragment">
+
+    <fragment
+        android:id="@+id/PPSinLogFragment"
+        android:name="com.example.royalbrave.PPSinLogFragment"
+        android:label="fragment_p_p_sin_log"
+        tools:layout="@layout/fragment_p_p_sin_log" >
+        <action
+            android:id="@+id/action_PPSinLogFragment_to_iniciarSesionFragment"
+            app:destination="@id/iniciarSesionFragment" />
+        <action
+            android:id="@+id/action_PPSinLogFragment_to_registrarseFragment"
+            app:destination="@id/registrarseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/iniciarSesionFragment"
+        android:name="com.example.royalbrave.IniciarSesionFragment"
+        android:label="fragment_iniciar_sesion"
+        tools:layout="@layout/fragment_iniciar_sesion" >
+        <action
+            android:id="@+id/action_iniciarSesionFragment_to_registrarseFragment"
+            app:destination="@id/registrarseFragment" />
+        <action
+            android:id="@+id/action_iniciarSesionFragment_to_PPConLogFragment"
+            app:destination="@id/PPConLogFragment" />
+        <action
+            android:id="@+id/action_iniciarSesionFragment_to_panelAdminFragment2"
+            app:destination="@id/panelAdminFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarseFragment"
+        android:name="com.example.royalbrave.RegistrarseFragment"
+        android:label="fragment_registrarse"
+        tools:layout="@layout/fragment_registrarse" >
+        <action
+            android:id="@+id/action_registrarseFragment_to_PPConLogFragment"
+            app:destination="@id/PPConLogFragment" />
+        <action
+            android:id="@+id/action_registrarseFragment_to_iniciarSesionFragment"
+            app:destination="@id/iniciarSesionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PPConLogFragment"
+        android:name="com.example.royalbrave.PPConLogFragment"
+        android:label="fragment_p_p_con_log"
+        tools:layout="@layout/fragment_p_p_con_log" >
+        <action
+            android:id="@+id/action_PPConLogFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_PPConLogFragment_to_clasificacionLaLigaFragment"
+            app:destination="@id/clasificacionLaLigaFragment" />
+        <action
+            android:id="@+id/action_PPConLogFragment_to_clasificacionPremierFragment"
+            app:destination="@id/clasificacionPremierFragment" />
+        <action
+            android:id="@+id/action_PPConLogFragment_to_detallesPartidoFragment"
+            app:destination="@id/detallesPartidoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cambiarContrasenaFragment"
+        android:name="com.example.royalbrave.CambiarContrasenaFragment"
+        android:label="fragment_cambiar_contrasena"
+        tools:layout="@layout/fragment_cambiar_contrasena" />
+    <fragment
+        android:id="@+id/estadisticasFragment"
+        android:name="com.example.royalbrave.EstadisticasFragment"
+        android:label="fragment_estadisticas"
+        tools:layout="@layout/fragment_estadisticas" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.royalbrave.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment_to_estadisticasFragment"
+            app:destination="@id/estadisticasFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_cambiarContrasenaFragment"
+            app:destination="@id/cambiarContrasenaFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_PPSinLogFragment"
+            app:destination="@id/PPSinLogFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_monederoFragment"
+            app:destination="@id/monederoFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_PPConLogFragment"
+            app:destination="@id/PPConLogFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_editarPerfilFragment"
+            app:destination="@id/editarPerfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monederoFragment"
+        android:name="com.example.royalbrave.MonederoFragment"
+        android:label="fragment_monedero"
+        tools:layout="@layout/fragment_monedero" />
+    <fragment
+        android:id="@+id/clasificacionLaLigaFragment"
+        android:name="com.example.royalbrave.ClasificacionLaLigaFragment"
+        android:label="fragment_clasificacion_la_liga"
+        tools:layout="@layout/fragment_clasificacion_la_liga" >
+        <action
+            android:id="@+id/action_clasificacionLaLigaFragment_to_goleadoresLigaFragment"
+            app:destination="@id/goleadoresLigaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clasificacionPremierFragment"
+        android:name="com.example.royalbrave.ClasificacionPremierFragment"
+        android:label="fragment_clasificacion_premier"
+        tools:layout="@layout/fragment_clasificacion_premier" >
+        <action
+            android:id="@+id/action_clasificacionPremierFragment_to_goleadoresPremierFragment"
+            app:destination="@id/goleadoresPremierFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallesPartidoFragment"
+        android:name="com.example.royalbrave.DetallesPartidoFragment"
+        android:label="fragment_detalles_partido"
+        tools:layout="@layout/fragment_detalles_partido" />
+    <fragment
+        android:id="@+id/goleadoresLigaFragment"
+        android:name="com.example.royalbrave.GoleadoresLigaFragment"
+        android:label="fragment_goleadores_liga"
+        tools:layout="@layout/fragment_goleadores_liga" />
+    <fragment
+        android:id="@+id/goleadoresPremierFragment"
+        android:name="com.example.royalbrave.GoleadoresPremierFragment"
+        android:label="fragment_goleadores_premier"
+        tools:layout="@layout/fragment_goleadores_premier" />
+    <fragment
+        android:id="@+id/editarPerfilFragment"
+        android:name="com.example.royalbrave.EditarPerfilFragment"
+        android:label="fragment_editar_perfil"
+        tools:layout="@layout/fragment_editar_perfil" >
+        <action
+            android:id="@+id/action_editarPerfilFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/panelAdminFragment2"
+        android:name="com.example.royalbrave.PanelAdminFragment"
+        android:label="PanelAdminFragment" >
+        <action
+            android:id="@+id/action_panelAdminFragment2_to_crearNuevoAdminFragment"
+            app:destination="@id/crearNuevoAdminFragment" />
+        <action
+            android:id="@+id/action_panelAdminFragment2_to_detallesUserFragment"
+            app:destination="@id/detallesUserFragment" />
+        <action
+            android:id="@+id/action_panelAdminFragment2_to_actualizarUserFragment"
+            app:destination="@id/actualizarUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearNuevoAdminFragment"
+        android:name="com.example.royalbrave.CrearNuevoAdminFragment"
+        android:label="CrearNuevoAdminFragment" >
+        <action
+            android:id="@+id/action_crearNuevoAdminFragment_to_panelAdminFragment2"
+            app:destination="@id/panelAdminFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/actualizarUserFragment"
+        android:name="com.example.royalbrave.ActualizarUserFragment"
+        android:label="fragment_actualizar_user"
+        tools:layout="@layout/fragment_actualizar_user" >
+        <action
+            android:id="@+id/action_actualizarUserFragment_to_panelAdminFragment2"
+            app:destination="@id/panelAdminFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallesUserFragment"
+        android:name="com.example.royalbrave.DetallesUserFragment"
+        android:label="fragment_detalles_user"
+        tools:layout="@layout/fragment_detalles_user" >
+        <action
+            android:id="@+id/action_detallesUserFragment_to_actualizarUserFragment"
+            app:destination="@id/actualizarUserFragment" />
+        <action
+            android:id="@+id/action_detallesUserFragment_to_panelAdminFragment2"
+            app:destination="@id/panelAdminFragment2" />
+    </fragment>
+</navigation>

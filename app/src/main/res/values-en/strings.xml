@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">RoyalBrave</string>
+
+    <string name="ppsinlog_iniciarsesion">Log In</string>
+    <string name="ppsinlog_registrate">Sign up</string>
+    <string name="ppsinlog_español">Spanish</string>
+    <string name="ppsinlog_catalan">Catalan</string>
+    <string name="ppsinlog_ingles">English</string>
+    <string name="ppsinlog_nosotros">About Us</string>
+    <string name="ppsinlog_ubi">Location</string>
+
+    <string name="pplog_proximos">Matches</string>
+
+    <string name="isesion_bienvenido">Welcome!</string>
+    <string name="isesion_olvidado">Have you forgotten your password? Click</string>
+    <string name="isesion_aqui">Here</string>
+    <string name="isesion_nocuenta">You do not have an account? Sign up</string>
+    <string name="isesion_entrar">Enter</string>
+
+    <string name="registrar_nombre">First Name</string>
+    <string name="registrar_apellidos">Last Name</string>
+    <string name="registrar_contrasena">Password</string>
+    <string name="registrar_email">Email</string>
+    <string name="registrar_hombre">Men</string>
+    <string name="registrar_mujer">Women</string>
+    <string name="registrar_boton">Check in</string>
+
+    <string name="estadisticas_beneficio">Profit/Loss:</string>
+    <string name="estadisticas_ingresos">Net income:</string>
+    <string name="estadisticas_tingresos">Total income:</string>
+    <string name="estadisticas_tretiradas">Total Withdrawals:</string>
+    <string name="estadisticas_uapuestas">Last Bets:</string>
+
+    <string name="cambiar_contraseña1">Change your password to protect your account</string>
+    <string name="cambiar_contraseña2">Your password must be at least eight characters long and include a combination of numbers and letters</string>
+    <string name="cambiar_contraseña_actual">Current password</string>
+    <string name="cambiar_contraseña_nueva">New Password</string>
+    <string name="cambiar_contraseña_repetir">Repeat password</string>
+    <string name="cambiar_contraseña_boton">Change</string>
+
+    <string name="panel_admin_crear">Create</string>
+    <string name="panel_admin_eliminar">Delete</string>
+    <string name="panel_admin_editar">Update</string>
+
+    <string name="detalles_panel_nombre">First Name:</string>
+    <string name="detalles_panel_apellido">Last Name:</string>
+    <string name="detalles_panel_genero">Gender:</string>
+    <string name="detalles_panel_fecha">Birth Date:</string>
+    <string name="detalles_panel_email">Email:</string>
+    <string name="detalles_panel_monedero">Amount:</string>
+    <string name="detalles_panel_admin">Admin:</string>
+    <string name="detalles_titulo_error">Delete </string>
+    <string name="detalles_contenido_error">Are you sure you want to delete </string>
+    <string name="detalles_alerta_si">Yes</string>
+    <string name="detalles_alerta_no">No</string>
+
+    <string name="nuevoAdmin_esAdmin">Is the user admin?</string>
+    <string name="nuevoAdmin_boton">Create</string>
+
+    <string name="actualizar_boton">Update</string>
+
+    <string name="clasificacion_posicion">Position</string>
+    <string name="clasificacion_equipo">Team</string>
+    <string name="clasificacion_puntos">Points</string>
+    <string name="clasificacion_goleadores">Top Scorers</string>
+
+    <string name="detalles_partido_informacion">MATCH INFORMATION</string>
+    <string name="detalles_partido_competicion">Competition</string>
+    <string name="detalles_partido_fecha">Starts</string>
+    <string name="detalles_partido_estadio">Stadium</string>
+    <string name="detalles_partido_fecha_tiempo"> at </string>
+
+    <string name="goleadores_posicion">Position</string>
+    <string name="goleadores_nombre">Name</string>
+    <string name="goleadores_foto">Photo</string>
+    <string name="goleadores_equipo">Team</string>
+    <string name="goleadores_foto_equipo">Team Photo</string>
+    <string name="goleadores_goles">Goals</string>
+
+    <string name="bottom_boton_apuesta">Make Bet</string>
+    <string name="bottom_gana">Win</string>
+    <string name="bottom_empate">Draw</string>
+    <string name="bottom_cantidad">Amount</string>
+
+    <string name="apuesta_resultado">Exact Result</string>
+    <string name="apuesta_goles">Goals +-2.5</string>
+    <string name="apuesta_amarillas">Yellow Cards +-3.5</string>
+    <string name="apuesta_rojas">Red Cards +-1.5</string>
+    <string name="apuesta_corners">Corners +-8.5</string>
+    <string name="apuesta_tiros">Shots on goal +-6.5</string>
+    <string name="apuesta_mas">More</string>
+    <string name="apuesta_menos">Less</string>
+    <string name="apuesta_local">Local</string>
+    <string name="apuesta_visitante">Away</string>
+    <string name="apuesta_empatan">Draw</string>
+
+    <string name="estadisticas_apuesta_fecha">Date of the bet:</string>
+    <string name="estadisticas_apuesta_estado">Status:</string>
+    <string name="estadisticas_apuesta_esPagado">Is Paid:</string>
+
+    <string name="error_cantidad">Error in the amount</string>
+
+    <string name="si">Yes</string>
+</resources>
